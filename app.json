@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NSwitch",
-    "slug": "NSwitch",
+    "name": "JogoDaVelha",
+    "slug": "JogoDaVelha",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

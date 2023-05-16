@@ -43,7 +43,7 @@ export default function App() {
     }
     // Verificar empate
     if (!board.flat().includes(null)) {
-      setWinner('Tie');
+      setWinner('Empate');
       return;
     }
   };
@@ -71,7 +71,7 @@ export default function App() {
 
   const renderStatus = () => {
     if (winner) {
-      return <Text style={styles.status}>{winner === 'Empate' ? 'É\ Um empate!' : `${winner} Venceu!`}</Text>;
+      return <Text style={styles.status}>{winner === 'Empate' ? 'É\ um empate!' : `${winner} Venceu!`}</Text>;
     }
     return <Text style={styles.status}>{currentPlayer} Turno </Text>;
   };
